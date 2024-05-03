@@ -173,7 +173,7 @@ jobs:
 
     steps:
       # Download repo
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
       
@@ -316,7 +316,7 @@ jobs:
 
     steps:
       # Download repo
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       
       # Build linpeas
       - name: Build macpeas
